@@ -70,7 +70,7 @@ class Display(QMainWindow):
                                       "background-color : red;"
                                       "}"
                                       )
-        self.pushButton.setText('Рацион калорий')
+        self.pushButton.setText('Поиск по калорийности')
         self.pushButton.setGeometry(40, 400, 400, 40)
         # Делаю навигацию для кнопок
         self.pushButton.clicked.connect(self.window_A3)
@@ -359,7 +359,7 @@ class Searching(QWidget):
 
     # Создаю визуал
     def initUI(self):
-        self.setWindowTitle("Рацион калорий")
+        self.setWindowTitle("Поиск по калорийности")
         self.setFont(QFont('Arial', 10))
         self.calor = QLabel("Калории", self)
         self.calor_query = QLineEdit(self)
