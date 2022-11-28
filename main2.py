@@ -70,7 +70,7 @@ class Display(QMainWindow):
                                       "background-color : red;"
                                       "}"
                                       )
-        self.pushButton.setText('База данных')
+        self.pushButton.setText('Рацион калорий')
         self.pushButton.setGeometry(40, 400, 400, 40)
         # Делаю навигацию для кнопок
         self.pushButton.clicked.connect(self.window_A3)
